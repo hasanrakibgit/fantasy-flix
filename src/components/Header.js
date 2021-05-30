@@ -59,7 +59,7 @@ const Header = (props) => {
   return (
     <Nav>
       <Logo>
-        <img src="/images/logo.svg" alt="Disney+" />
+        <h1>Fantasy Flix</h1>
       </Logo>
 
       {!userName ? (
@@ -110,7 +110,7 @@ const Nav = styled.nav`
   left: 0;
   right: 0;
   height: 70px;
-  background-color: #090b13;
+  background-color: rgb(2, 21, 31);
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -120,17 +120,9 @@ const Nav = styled.nav`
 `;
 
 const Logo = styled.a`
-  padding: 0;
-  width: 80px;
-  margin-top: 4px;
-  max-height: 70px;
-  font-size: 0;
-  display: inline-block;
-
-  img {
-    display: block;
-    width: 100%;
-  }
+  color: white;
+  width: 160px;
+  font-size:15px;
 `;
 
 const NavMenu = styled.div`

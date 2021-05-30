@@ -7,8 +7,6 @@ const firebaseConfig = {
   storageBucket: "upex-city-travellers.appspot.com",
   messagingSenderId: "770397916402",
   appId: "1:770397916402:web:45fd60886c42f9c2be546b",
-
-  measurementId: "G-DRVLJKWRWG",
 };
 
 const firebaseApp = firebase.initializeApp(firebaseConfig);
